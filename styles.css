@@ -1,0 +1,276 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;700&display=swap');
+
+:root {
+    --negro: #080808;
+    --crudo: #E9E5DE;
+    --rojo: #D9080B;
+    --gris: #A6A6A6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--negro);
+    color: var(--crudo);
+    font-family: 'Archivo', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 18vw;
+    color: var(--rojo);
+    margin: 0;
+}
+
+h2 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 0.95rem;
+}
+
+.rojo {
+    color: var(--rojo);
+}
+
+.etiqueta {
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.lead {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* NAVEGACION */
+
+.navbar {
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: var(--crudo);
+    font-size: 0.75rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--rojo);
+}
+
+/* PORTADA */
+
+header {
+    background-color: var(--crudo);
+    color: var(--negro);
+    padding: 20px 0;
+}
+
+header h2 {
+    color: var(--rojo);
+    font-size: 3.5rem;
+}
+
+.portada {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+header .btn-primary {
+    width: 180px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* BOTONES */
+
+.btn-primary {
+    background-color: var(--rojo);
+    color: var(--crudo);
+    border: 1px solid var(--rojo);
+    border-radius: 0;
+    font-family: 'Archivo', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 12px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: var(--negro);
+    color: var(--crudo);
+    border-color: var(--rojo);
+}
+
+/* SECCIONES */
+
+section {
+    padding: 40px 0;
+}
+
+/* ARCHIVO */
+
+#archivo .lead {
+    color: var(--gris);
+    text-align: left;
+}
+
+#archivo .btn-primary {
+    width: 230px;
+}
+
+#contenedor {
+    margin-top: 25px;
+}
+
+.obra {
+    background-color: var(--negro);
+    padding: 0 0 10px 0;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.obra:hover {
+    background-color: #191919;
+}
+
+.obra img {
+    width: 100%;
+    height: 230px;
+}
+
+.obra .numero {
+    color: var(--rojo);
+    font-family: 'Anton', sans-serif;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.obra h3 {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+.obra .dato {
+    font-size: 0.75rem;
+    color: var(--gris);
+    font-weight: 700;
+}
+
+.obra p {
+    color: var(--gris);
+    font-size: 0.85rem;
+}
+
+/* MANIFIESTO */
+
+#manifiesto {
+    background-color: var(--rojo);
+    color: var(--crudo);
+}
+
+#manifiesto img {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 15px;
+}
+
+#manifiesto h2 {
+    font-size: 3.3rem;
+}
+
+#manifiesto h3 {
+    font-size: 1.2rem;
+}
+
+/* CONTACTO */
+
+#contacto h2 {
+    font-size: 3.5rem;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 20px 0;
+}
+
+footer h3 {
+    color: var(--rojo);
+}
+
+footer a {
+    color: var(--crudo);
+    font-size: 0.75rem;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--rojo);
+}
+
+footer p {
+    font-size: 0.75rem;
+    color: var(--gris);
+}
+
+/* MODAL */
+
+.modal-content {
+    background-color: var(--crudo);
+    color: var(--negro);
+    border: 1px solid var(--rojo);
+    border-radius: 0;
+}
+
+.modal-header {
+    background-color: var(--rojo);
+    color: var(--crudo);
+}
+
+.modal-title {
+    font-family: 'Anton', sans-serif;
+}
+
+.form-label {
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+form .btn {
+    margin-top: 20px;
+}
+
+
+

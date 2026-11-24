@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRUT / BA</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-danger">
+        <div class="container">
+
+            <a class="navbar-brand" href="#inicio">BRUT / BA</a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#miMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="miMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">01 / INICIO</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#archivo">02 / ARCHIVO</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#manifiesto">03 / MANIFIESTO</a>
+                    </li>
+
+                </ul>
+
+                <button class="btn btn-primary"
+                    data-bs-toggle="modal" data-bs-target="#miModal">
+                    CONTACTO ↗
+                </button>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <header id="inicio">
+
+        <div class="container">
+
+            <div class="d-flex justify-content-between">
+                <p class="etiqueta">ARCHIVO INDEPENDIENTE / VOL. 01</p>
+                <p class="etiqueta">BUENOS AIRES — 2026</p>
+            </div>
+
+            <h1>BRUT / BA</h1>
+
+            <div class="row">
+
+                <div class="col-md-8">
+
+                    <img src="img/portada.jpg"
+                        class="img-fluid object-fit-cover portada"
+                        alt="Biblioteca Nacional de Buenos Aires">
+
+                </div>
+
+                <div class="col-md-4 d-flex flex-column justify-content-center">
+
+                    <p class="etiqueta">ARQUITECTURA / CULTURA / CIUDAD</p>
+
+                    <h2>LA BELLEZA<br>DE LO<br>CRUDO.</h2>
+
+                    <p class="lead">
+                        Un archivo dedicado a la arquitectura
+                        brutalista de Buenos Aires.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <a href="#archivo" class="btn btn-primary">
+                EXPLORAR ↓
+            </a>
+
+            <div class="d-flex justify-content-between">
+                <p class="etiqueta">FIG. 01 — BIBLIOTECA NACIONAL</p>
+                <p class="etiqueta">ARGENTINA / 34° S</p>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section id="archivo" class="container">
+
+            <p class="etiqueta rojo">[ 01 — INVENTARIO URBANO ]</p>
+
+            <div class="row">
+
+                <div class="col-md-8">
+
+                    <h2>
+                        MONUMENTOS<br>
+                        DE HORMIGÓN<span class="rojo">.</span>
+                    </h2>
+
+                    <p class="lead">
+                        Tres obras que proponen otra manera de entender la ciudad.
+                    </p>
+
+                    <button id="cargarObras" class="btn btn-primary">
+                        DESCUBRIR LAS OBRAS ↘
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="row" id="contenedor"></div>
+
+        </section>
+
+        <section id="manifiesto">
+
+            <div class="container">
+
+                <p class="etiqueta">[ 02 — MANIFIESTO ]</p>
+
+                <div class="row">
+
+                    <div class="col-md-5">
+
+                        <img src="img/manifiesto.jpg"
+                            class="img-fluid object-fit-cover"
+                            alt="Geometría y textura del hormigón">
+
+                    </div>
+
+                    <div class="col-md-7 d-flex flex-column justify-content-center">
+
+                        <h2>
+                            SIN FILTROS.<br>
+                            SIN ORNAMENTOS.<br>
+                            SIN CONCESIONES.
+                        </h2>
+
+                        <h3>LA ESTRUCTURA NO SE ESCONDE.</h3>
+
+                        <p>
+                            El brutalismo encuentra belleza en la
+                            honestidad de sus materiales, la fuerza de
+                            sus formas y la exposición de su estructura.
+                        </p>
+
+                        <p>
+                            El hormigón como lenguaje.
+                            La estructura como identidad.
+                            La ciudad como archivo.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contacto" class="container">
+
+            <p class="etiqueta rojo">[ 03 — CONTACTO ]</p>
+
+            <div class="row">
+
+                <div class="col-md-8">
+
+                    <h2>
+                        MIRÁ LA CIUDAD<br>
+                        DE OTRA <span class="rojo">MANERA.</span>
+                    </h2>
+
+                </div>
+
+                <div class="col-md-4 d-flex flex-column justify-content-center">
+
+                    <p>¿Tenés una obra para sumar al archivo?</p>
+
+                    <button class="btn btn-primary"
+                        data-bs-toggle="modal" data-bs-target="#miModal">
+                        HABLEMOS ↗
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="border-top border-secondary">
+
+        <div class="container">
+
+            <div class="d-flex justify-content-between">
+
+                <div>
+
+                    <h3>BRUT / BA</h3>
+                    <p>Diseño Web — UTDT 2026</p>
+
+                </div>
+
+                <div>
+
+                    <a href="#inicio">VOLVER ARRIBA ↑</a>
+                    <p>BUENOS AIRES © 2026</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <div class="modal" id="miModal" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">BRUT / BA — CONTACTO</h5>
+
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="modal"></button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <h3>HABLEMOS.</h3>
+
+                    <p>¿Qué edificio sumarías al archivo?</p>
+
+                    <form action="https://api.web3forms.com/submit" method="POST">
+
+                        <input type="hidden" name="access_key"
+                            value="TU_ACCESS_KEY">
+
+                        <label for="nombre" class="form-label">Nombre</label>
+
+                        <input type="text" class="form-control"
+                            id="nombre" name="nombre" required>
+
+                        <label for="email" class="form-label">Email</label>
+
+                        <input type="email" class="form-control"
+                            id="email" name="email" required>
+
+                        <label for="mensaje" class="form-label">Mensaje</label>
+
+                        <textarea class="form-control"
+                            id="mensaje" name="mensaje"
+                            rows="4" required></textarea>
+
+                        <button type="submit" class="btn btn-primary">
+                            ENVIAR MENSAJE ↗
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+

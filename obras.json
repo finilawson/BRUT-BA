@@ -1,0 +1,25 @@
+
+[
+    {
+        "numero": "001",
+        "titulo": "BANCO DE LONDRES",
+        "ubicacion": "SAN NICOLÁS / BUENOS AIRES",
+        "descripcion": "Una estructura monumental que redefine la relación entre el hormigón y la ciudad.",
+        "imagen": "img/banco.jpg"
+    },
+    {
+        "numero": "002",
+        "titulo": "BIBLIOTECA NACIONAL",
+        "ubicacion": "RECOLETA / BUENOS AIRES",
+        "descripcion": "Una masa de hormigón suspendida sobre el paisaje urbano.",
+        "imagen": "img/biblioteca.jpg"
+    },
+    {
+        "numero": "003",
+        "titulo": "EDIFICIO ATC",
+        "ubicacion": "PALERMO / BUENOS AIRES",
+        "descripcion": "Geometría, materialidad y escala como protagonistas de la arquitectura.",
+        "imagen": "img/atc.jpg"
+    }
+]
+
